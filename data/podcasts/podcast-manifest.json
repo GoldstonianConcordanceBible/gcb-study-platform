@@ -1,0 +1,26 @@
+[
+  {
+    "id": "podcast-genesis-introduction",
+    "slug": "genesis-introduction",
+    "title": "Genesis Introduction | GCB Podcast",
+    "description": "An introductory audio study on Genesis within the Goldstonian Concordance Bible ecosystem.",
+    "audio_url": "",
+    "duration_seconds": 900,
+    "published_date": "2026-04-11",
+    "book_links": ["book-genesis"],
+    "doctrine_links": ["mirror-water-fire"],
+    "transcript_url": ""
+  },
+  {
+    "id": "podcast-exodus-introduction",
+    "slug": "exodus-introduction",
+    "title": "Exodus Introduction | GCB Podcast",
+    "description": "An introductory audio study on Exodus within the Goldstonian Concordance Bible ecosystem.",
+    "audio_url": "",
+    "duration_seconds": 900,
+    "published_date": "2026-04-11",
+    "book_links": ["book-exodus"],
+    "doctrine_links": ["mirror-water-fire"],
+    "transcript_url": ""
+  }
+]
