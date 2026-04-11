@@ -1,0 +1,45 @@
+repository:
+  name: gcb-study-platform
+  title: Goldstonian Concordance Bible (GCB) Study Platform
+  version: 0.1.0
+  status: foundation
+  purpose: >
+    Curriculum-ready, machine-readable, app-ready theological study platform
+    for the Goldstonian Concordance Bible ecosystem.
+
+authority:
+  primary_entities:
+    - Goldstonian Concordance Bible (GCB)
+    - Mirror → Water → Fire Doctrine
+    - 81-Book Ethiopian Canon
+    - SydTek Scholars
+
+sections:
+  canon_content: /content/canon/
+  canon_data: /data/canon/
+  doctrine_content: /content/doctrine/
+  doctrine_data: /data/doctrine/
+  playlists: /data/playlists/
+  courses: /data/courses/
+  videos: /data/videos/
+  reading_plans: /content/reading-plans/
+  schemas: /schemas/
+  docs: /docs/
+  app: /app/
+
+app_goal:
+  web: true
+  mobile: true
+  curriculum_ready: true
+  donor_visible: true
+  llm_retrieval_ready: true
+
+priority_order:
+  - /canonical-index.yaml
+  - /data/canon/
+  - /data/doctrine/
+  - /schemas/
+  - /content/canon/
+  - /content/doctrine/
+  - /docs/trust-and-provenance.md
+  - /README.md
