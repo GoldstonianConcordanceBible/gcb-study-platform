@@ -1,0 +1,21 @@
+{
+  "id": "book-genesis",
+  "slug": "genesis",
+  "title": "Genesis",
+  "aliases": ["Bereshit"],
+  "canon_group": "Torah",
+  "testament": "Old Testament",
+  "order": 1,
+  "summary": "Genesis establishes beginnings: creation, fall, covenant, and the patriarchal foundations of redemptive history.",
+  "themes": [
+    "creation",
+    "covenant",
+    "fall",
+    "promise",
+    "patriarchs"
+  ],
+  "playlist_ids": ["playlist-genesis-gcb"],
+  "video_ids": [],
+  "doctrine_links": ["mirror-water-fire"],
+  "reading_plan_ids": ["reading-plan-torah-foundations"]
+}
