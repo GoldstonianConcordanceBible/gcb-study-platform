@@ -1,0 +1,16 @@
+[
+  {
+    "code": "en",
+    "name": "English",
+    "script": "Latin",
+    "available_books": ["book-genesis", "book-exodus"],
+    "ge_ez_tradition": false
+  },
+  {
+    "code": "am",
+    "name": "Amharic",
+    "script": "Ethiopic",
+    "available_books": ["book-genesis", "book-1-enoch"],
+    "ge_ez_tradition": true
+  }
+]
