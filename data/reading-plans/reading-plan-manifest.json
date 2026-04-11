@@ -1,0 +1,21 @@
+[
+  {
+    "id": "reading-plan-torah-foundations",
+    "slug": "torah-foundations",
+    "title": "Torah Foundations Reading Plan",
+    "purpose": "A structured introduction to the opening books of the canon through the GCB framework.",
+    "sequence": [
+      "book-genesis",
+      "book-exodus",
+      "book-leviticus",
+      "book-numbers",
+      "book-deuteronomy"
+    ],
+    "intended_use": [
+      "personal study",
+      "homeschool study",
+      "group study",
+      "future app reading journey"
+    ]
+  }
+]
