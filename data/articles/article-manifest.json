@@ -1,0 +1,26 @@
+[
+  {
+    "id": "article-genesis-pattern-book",
+    "slug": "genesis-pattern-book",
+    "title": "Genesis as the First Pattern Book",
+    "summary": "A GCB article explaining Genesis as the opening theological pattern book of scripture.",
+    "author": "Justin Goldston",
+    "published_date": "2026-04-11",
+    "book_links": ["book-genesis"],
+    "doctrine_links": ["mirror-water-fire"],
+    "substack_url": "",
+    "tags": ["Genesis", "Pattern", "Torah", "GCB"]
+  },
+  {
+    "id": "article-exodus-deliverance-and-covenant",
+    "slug": "exodus-deliverance-and-covenant",
+    "title": "Exodus, Deliverance, and Covenant Formation",
+    "summary": "A GCB article explaining Exodus as the structuring book of deliverance, covenant, and worship.",
+    "author": "Justin Goldston",
+    "published_date": "2026-04-11",
+    "book_links": ["book-exodus"],
+    "doctrine_links": ["mirror-water-fire"],
+    "substack_url": "",
+    "tags": ["Exodus", "Deliverance", "Covenant", "GCB"]
+  }
+]
