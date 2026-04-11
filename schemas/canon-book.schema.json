@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Canon Book",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "canon_group",
+    "testament",
+    "order",
+    "summary"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "title": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "canon_group": { "type": "string" },
+    "testament": { "type": "string" },
+    "order": { "type": "integer" },
+    "summary": { "type": "string" },
+    "themes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "playlist_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "video_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "doctrine_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "reading_plan_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
