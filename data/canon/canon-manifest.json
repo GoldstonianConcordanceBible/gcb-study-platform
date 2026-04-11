@@ -1,0 +1,731 @@
+[
+  {
+    "id": "book-genesis",
+    "slug": "genesis",
+    "title": "Genesis",
+    "canon_group": "Torah",
+    "testament": "Old Testament",
+    "order": 1,
+    "summary": "Genesis establishes creation, fall, covenant, and the patriarchal beginnings of redemptive history."
+  },
+  {
+    "id": "book-exodus",
+    "slug": "exodus",
+    "title": "Exodus",
+    "canon_group": "Torah",
+    "testament": "Old Testament",
+    "order": 2,
+    "summary": "Exodus reveals deliverance, covenant, law, worship, and the forming of a people under God."
+  },
+  {
+    "id": "book-leviticus",
+    "slug": "leviticus",
+    "title": "Leviticus",
+    "canon_group": "Torah",
+    "testament": "Old Testament",
+    "order": 3,
+    "summary": "Leviticus structures holiness, sacrifice, priesthood, and sacred order before the Lord."
+  },
+  {
+    "id": "book-numbers",
+    "slug": "numbers",
+    "title": "Numbers",
+    "canon_group": "Torah",
+    "testament": "Old Testament",
+    "order": 4,
+    "summary": "Numbers traces wilderness testing, rebellion, preservation, and covenant continuity."
+  },
+  {
+    "id": "book-deuteronomy",
+    "slug": "deuteronomy",
+    "title": "Deuteronomy",
+    "canon_group": "Torah",
+    "testament": "Old Testament",
+    "order": 5,
+    "summary": "Deuteronomy renews covenant memory, obedience, warning, and blessing before entry into the land."
+  },
+  {
+    "id": "book-joshua",
+    "slug": "joshua",
+    "title": "Joshua",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 6,
+    "summary": "Joshua records conquest, inheritance, covenant settlement, and the faithfulness of God."
+  },
+  {
+    "id": "book-judges",
+    "slug": "judges",
+    "title": "Judges",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 7,
+    "summary": "Judges shows the cycle of rebellion, oppression, deliverance, and moral collapse."
+  },
+  {
+    "id": "book-ruth",
+    "slug": "ruth",
+    "title": "Ruth",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 8,
+    "summary": "Ruth reveals covenant loyalty, providence, redemption, and messianic lineage through humble faithfulness."
+  },
+  {
+    "id": "book-1-samuel",
+    "slug": "1-samuel",
+    "title": "1 Samuel",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 9,
+    "summary": "1 Samuel narrates prophetic transition, kingship, obedience, and the rise of David."
+  },
+  {
+    "id": "book-2-samuel",
+    "slug": "2-samuel",
+    "title": "2 Samuel",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 10,
+    "summary": "2 Samuel centers on Davidic rule, covenant promise, sin, judgment, and kingdom complexity."
+  },
+  {
+    "id": "book-1-kings",
+    "slug": "1-kings",
+    "title": "1 Kings",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 11,
+    "summary": "1 Kings records temple glory, divided kingdoms, prophetic confrontation, and covenant decline."
+  },
+  {
+    "id": "book-2-kings",
+    "slug": "2-kings",
+    "title": "2 Kings",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 12,
+    "summary": "2 Kings traces judgment, exile, prophetic witness, and the consequences of covenant failure."
+  },
+  {
+    "id": "book-1-chronicles",
+    "slug": "1-chronicles",
+    "title": "1 Chronicles",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 13,
+    "summary": "1 Chronicles re-centers lineage, worship, Davidic order, and covenant memory."
+  },
+  {
+    "id": "book-2-chronicles",
+    "slug": "2-chronicles",
+    "title": "2 Chronicles",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 14,
+    "summary": "2 Chronicles emphasizes temple life, reform, judgment, and hope after collapse."
+  },
+  {
+    "id": "book-jubilees",
+    "slug": "jubilees",
+    "title": "Jubilees",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 15,
+    "summary": "Jubilees retells sacred history through covenant structure, chronology, and holiness."
+  },
+  {
+    "id": "book-1-enoch",
+    "slug": "1-enoch",
+    "title": "1 Enoch",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 16,
+    "summary": "1 Enoch develops judgment, heavenly order, rebellion, and apocalyptic witness."
+  },
+  {
+    "id": "book-ezra",
+    "slug": "ezra",
+    "title": "Ezra",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 17,
+    "summary": "Ezra records return, restoration, temple renewal, and covenant recommitment."
+  },
+  {
+    "id": "book-nehemiah",
+    "slug": "nehemiah",
+    "title": "Nehemiah",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 18,
+    "summary": "Nehemiah focuses on rebuilding, leadership, repentance, and communal restoration."
+  },
+  {
+    "id": "book-tobit",
+    "slug": "tobit",
+    "title": "Tobit",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 19,
+    "summary": "Tobit presents faithfulness, providence, angelic help, and righteous endurance."
+  },
+  {
+    "id": "book-judith",
+    "slug": "judith",
+    "title": "Judith",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 20,
+    "summary": "Judith highlights courage, deliverance, and divine victory through faithful action."
+  },
+  {
+    "id": "book-esther",
+    "slug": "esther",
+    "title": "Esther",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 21,
+    "summary": "Esther reveals providence, preservation, courage, and covenant survival under threat."
+  },
+  {
+    "id": "book-1-meqabyan",
+    "slug": "1-meqabyan",
+    "title": "1 Meqabyan",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 22,
+    "summary": "1 Meqabyan witnesses to fidelity, resistance, and righteousness under pressure."
+  },
+  {
+    "id": "book-2-meqabyan",
+    "slug": "2-meqabyan",
+    "title": "2 Meqabyan",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 23,
+    "summary": "2 Meqabyan expands themes of endurance, faith, and divine justice."
+  },
+  {
+    "id": "book-3-meqabyan",
+    "slug": "3-meqabyan",
+    "title": "3 Meqabyan",
+    "canon_group": "Historical Books",
+    "testament": "Old Testament",
+    "order": 24,
+    "summary": "3 Meqabyan continues the witness of steadfastness, testing, and covenant integrity."
+  },
+  {
+    "id": "book-job",
+    "slug": "job",
+    "title": "Job",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 25,
+    "summary": "Job confronts suffering, righteousness, mystery, and the sovereignty of God."
+  },
+  {
+    "id": "book-psalms",
+    "slug": "psalms",
+    "title": "Psalms",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 26,
+    "summary": "Psalms gathers praise, lament, kingship, repentance, and worship before God."
+  },
+  {
+    "id": "book-proverbs",
+    "slug": "proverbs",
+    "title": "Proverbs",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 27,
+    "summary": "Proverbs teaches wisdom, discipline, righteousness, speech, and covenant discernment."
+  },
+  {
+    "id": "book-ecclesiastes",
+    "slug": "ecclesiastes",
+    "title": "Ecclesiastes",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 28,
+    "summary": "Ecclesiastes reflects on vanity, mortality, meaning, and reverence before God."
+  },
+  {
+    "id": "book-song-of-songs",
+    "slug": "song-of-songs",
+    "title": "Song of Songs",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 29,
+    "summary": "Song of Songs celebrates love, beauty, longing, and covenant affection."
+  },
+  {
+    "id": "book-wisdom",
+    "slug": "wisdom",
+    "title": "Wisdom",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 30,
+    "summary": "Wisdom presents righteousness, divine wisdom, judgment, and the contrast with folly."
+  },
+  {
+    "id": "book-sirach",
+    "slug": "sirach",
+    "title": "Sirach",
+    "canon_group": "Wisdom Books",
+    "testament": "Old Testament",
+    "order": 31,
+    "summary": "Sirach teaches moral wisdom, discipline, tradition, and reverence in daily life."
+  },
+  {
+    "id": "book-isaiah",
+    "slug": "isaiah",
+    "title": "Isaiah",
+    "canon_group": "Major Prophets",
+    "testament": "Old Testament",
+    "order": 32,
+    "summary": "Isaiah proclaims holiness, judgment, messianic hope, and redemptive restoration."
+  },
+  {
+    "id": "book-jeremiah",
+    "slug": "jeremiah",
+    "title": "Jeremiah",
+    "canon_group": "Major Prophets",
+    "testament": "Old Testament",
+    "order": 33,
+    "summary": "Jeremiah announces judgment, lament, covenant warning, and future restoration."
+  },
+  {
+    "id": "book-lamentations",
+    "slug": "lamentations",
+    "title": "Lamentations",
+    "canon_group": "Major Prophets",
+    "testament": "Old Testament",
+    "order": 34,
+    "summary": "Lamentations mourns destruction while holding to covenant grief and hope."
+  },
+  {
+    "id": "book-baruch",
+    "slug": "baruch",
+    "title": "Baruch",
+    "canon_group": "Major Prophets",
+    "testament": "Old Testament",
+    "order": 35,
+    "summary": "Baruch emphasizes repentance, wisdom, exile, and hope in God’s mercy."
+  },
+  {
+    "id": "book-ezekiel",
+    "slug": "ezekiel",
+    "title": "Ezekiel",
+    "canon_group": "Major Prophets",
+    "testament": "Old Testament",
+    "order": 36,
+    "summary": "Ezekiel joins judgment, vision, temple symbolism, and restoration through divine glory."
+  },
+  {
+    "id": "book-daniel",
+    "slug": "daniel",
+    "title": "Daniel",
+    "canon_group": "Major Prophets",
+    "testament": "Old Testament",
+    "order": 37,
+    "summary": "Daniel unites exile faithfulness, apocalyptic vision, kingdoms, and divine sovereignty."
+  },
+  {
+    "id": "book-hosea",
+    "slug": "hosea",
+    "title": "Hosea",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 38,
+    "summary": "Hosea reveals covenant unfaithfulness, mercy, judgment, and redeeming love."
+  },
+  {
+    "id": "book-joel",
+    "slug": "joel",
+    "title": "Joel",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 39,
+    "summary": "Joel declares the day of the Lord, repentance, restoration, and outpoured Spirit."
+  },
+  {
+    "id": "book-amos",
+    "slug": "amos",
+    "title": "Amos",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 40,
+    "summary": "Amos confronts injustice, false security, judgment, and the righteousness of God."
+  },
+  {
+    "id": "book-obadiah",
+    "slug": "obadiah",
+    "title": "Obadiah",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 41,
+    "summary": "Obadiah proclaims judgment against pride and the vindication of God’s people."
+  },
+  {
+    "id": "book-jonah",
+    "slug": "jonah",
+    "title": "Jonah",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 42,
+    "summary": "Jonah displays mercy, resistance, repentance, and the wideness of divine compassion."
+  },
+  {
+    "id": "book-micah",
+    "slug": "micah",
+    "title": "Micah",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 43,
+    "summary": "Micah joins judgment, justice, messianic promise, and covenant ethics."
+  },
+  {
+    "id": "book-nahum",
+    "slug": "nahum",
+    "title": "Nahum",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 44,
+    "summary": "Nahum announces judgment on oppressive power and the justice of God."
+  },
+  {
+    "id": "book-habakkuk",
+    "slug": "habakkuk",
+    "title": "Habakkuk",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 45,
+    "summary": "Habakkuk wrestles with justice, waiting, faith, and trust amid crisis."
+  },
+  {
+    "id": "book-zephaniah",
+    "slug": "zephaniah",
+    "title": "Zephaniah",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 46,
+    "summary": "Zephaniah warns of judgment while promising purification and restoration."
+  },
+  {
+    "id": "book-haggai",
+    "slug": "haggai",
+    "title": "Haggai",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 47,
+    "summary": "Haggai urges rebuilding, obedience, covenant priority, and renewed hope."
+  },
+  {
+    "id": "book-zechariah",
+    "slug": "zechariah",
+    "title": "Zechariah",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 48,
+    "summary": "Zechariah blends vision, cleansing, kingship, and messianic expectation."
+  },
+  {
+    "id": "book-malachi",
+    "slug": "malachi",
+    "title": "Malachi",
+    "canon_group": "Minor Prophets",
+    "testament": "Old Testament",
+    "order": 49,
+    "summary": "Malachi confronts covenant negligence and points toward coming purification."
+  },
+  {
+    "id": "book-matthew",
+    "slug": "matthew",
+    "title": "Matthew",
+    "canon_group": "Gospels",
+    "testament": "New Testament",
+    "order": 50,
+    "summary": "Matthew presents Jesus as Messiah, teacher, king, and fulfillment of scripture."
+  },
+  {
+    "id": "book-mark",
+    "slug": "mark",
+    "title": "Mark",
+    "canon_group": "Gospels",
+    "testament": "New Testament",
+    "order": 51,
+    "summary": "Mark emphasizes the authority, suffering, action, and identity of Jesus."
+  },
+  {
+    "id": "book-luke",
+    "slug": "luke",
+    "title": "Luke",
+    "canon_group": "Gospels",
+    "testament": "New Testament",
+    "order": 52,
+    "summary": "Luke highlights salvation, compassion, history, and the universal scope of Christ."
+  },
+  {
+    "id": "book-john",
+    "slug": "john",
+    "title": "John",
+    "canon_group": "Gospels",
+    "testament": "New Testament",
+    "order": 53,
+    "summary": "John proclaims the divine identity, signs, love, and glory of Jesus Christ."
+  },
+  {
+    "id": "book-acts",
+    "slug": "acts",
+    "title": "Acts",
+    "canon_group": "Gospels",
+    "testament": "New Testament",
+    "order": 54,
+    "summary": "Acts records the mission of the early church through the power of the Holy Spirit."
+  },
+  {
+    "id": "book-romans",
+    "slug": "romans",
+    "title": "Romans",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 55,
+    "summary": "Romans develops sin, grace, justification, covenant, and life in the Spirit."
+  },
+  {
+    "id": "book-1-corinthians",
+    "slug": "1-corinthians",
+    "title": "1 Corinthians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 56,
+    "summary": "1 Corinthians addresses disorder, holiness, worship, resurrection, and covenant community."
+  },
+  {
+    "id": "book-2-corinthians",
+    "slug": "2-corinthians",
+    "title": "2 Corinthians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 57,
+    "summary": "2 Corinthians centers on weakness, ministry, reconciliation, and apostolic endurance."
+  },
+  {
+    "id": "book-galatians",
+    "slug": "galatians",
+    "title": "Galatians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 58,
+    "summary": "Galatians defends gospel freedom, faith, promise, and life in the Spirit."
+  },
+  {
+    "id": "book-ephesians",
+    "slug": "ephesians",
+    "title": "Ephesians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 59,
+    "summary": "Ephesians reveals unity, new creation, spiritual warfare, and the body of Christ."
+  },
+  {
+    "id": "book-philippians",
+    "slug": "philippians",
+    "title": "Philippians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 60,
+    "summary": "Philippians teaches joy, humility, endurance, and Christ-centered faithfulness."
+  },
+  {
+    "id": "book-colossians",
+    "slug": "colossians",
+    "title": "Colossians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 61,
+    "summary": "Colossians magnifies the supremacy of Christ over creation, church, and spiritual powers."
+  },
+  {
+    "id": "book-1-thessalonians",
+    "slug": "1-thessalonians",
+    "title": "1 Thessalonians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 62,
+    "summary": "1 Thessalonians encourages holiness, hope, endurance, and readiness for the Lord."
+  },
+  {
+    "id": "book-2-thessalonians",
+    "slug": "2-thessalonians",
+    "title": "2 Thessalonians",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 63,
+    "summary": "2 Thessalonians addresses perseverance, order, judgment, and eschatological clarity."
+  },
+  {
+    "id": "book-1-timothy",
+    "slug": "1-timothy",
+    "title": "1 Timothy",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 64,
+    "summary": "1 Timothy structures church order, teaching, leadership, and godly conduct."
+  },
+  {
+    "id": "book-2-timothy",
+    "slug": "2-timothy",
+    "title": "2 Timothy",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 65,
+    "summary": "2 Timothy calls for endurance, faithful teaching, courage, and perseverance in truth."
+  },
+  {
+    "id": "book-titus",
+    "slug": "titus",
+    "title": "Titus",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 66,
+    "summary": "Titus links sound doctrine, leadership, and transformed living."
+  },
+  {
+    "id": "book-philemon",
+    "slug": "philemon",
+    "title": "Philemon",
+    "canon_group": "Pauline Epistles",
+    "testament": "New Testament",
+    "order": 67,
+    "summary": "Philemon embodies reconciliation, brotherhood, and gospel-shaped relationship."
+  },
+  {
+    "id": "book-hebrews",
+    "slug": "hebrews",
+    "title": "Hebrews",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 68,
+    "summary": "Hebrews exalts Christ as greater priest, greater sacrifice, and greater covenant mediator."
+  },
+  {
+    "id": "book-james",
+    "slug": "james",
+    "title": "James",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 69,
+    "summary": "James joins wisdom, obedience, speech, endurance, and living faith."
+  },
+  {
+    "id": "book-1-peter",
+    "slug": "1-peter",
+    "title": "1 Peter",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 70,
+    "summary": "1 Peter encourages holiness, suffering, witness, and hope in exile."
+  },
+  {
+    "id": "book-2-peter",
+    "slug": "2-peter",
+    "title": "2 Peter",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 71,
+    "summary": "2 Peter warns against falsehood and urges steadfastness in truth and holiness."
+  },
+  {
+    "id": "book-1-john",
+    "slug": "1-john",
+    "title": "1 John",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 72,
+    "summary": "1 John proclaims light, love, truth, assurance, and life in the Son."
+  },
+  {
+    "id": "book-2-john",
+    "slug": "2-john",
+    "title": "2 John",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 73,
+    "summary": "2 John joins truth, love, discernment, and faithfulness against deception."
+  },
+  {
+    "id": "book-3-john",
+    "slug": "3-john",
+    "title": "3 John",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 74,
+    "summary": "3 John highlights hospitality, truth, support, and faithful witness."
+  },
+  {
+    "id": "book-jude",
+    "slug": "jude",
+    "title": "Jude",
+    "canon_group": "General Epistles",
+    "testament": "New Testament",
+    "order": 75,
+    "summary": "Jude warns against corruption and calls the faithful to contend for truth."
+  },
+  {
+    "id": "book-revelation",
+    "slug": "revelation",
+    "title": "Revelation",
+    "canon_group": "Apocalypse",
+    "testament": "New Testament",
+    "order": 76,
+    "summary": "Revelation unveils judgment, victory, worship, endurance, and the reign of God."
+  },
+  {
+    "id": "book-sinodos",
+    "slug": "sinodos",
+    "title": "Sinodos",
+    "canon_group": "Broader Canon NT",
+    "testament": "New Testament",
+    "order": 77,
+    "summary": "Sinodos preserves church order, instruction, and broader canonical tradition."
+  },
+  {
+    "id": "book-1-clement",
+    "slug": "1-clement",
+    "title": "1 Clement",
+    "canon_group": "Broader Canon NT",
+    "testament": "New Testament",
+    "order": 78,
+    "summary": "1 Clement emphasizes order, humility, repentance, and peace within the church."
+  },
+  {
+    "id": "book-2-clement",
+    "slug": "2-clement",
+    "title": "2 Clement",
+    "canon_group": "Broader Canon NT",
+    "testament": "New Testament",
+    "order": 79,
+    "summary": "2 Clement exhorts repentance, obedience, endurance, and faithful hearing."
+  },
+  {
+    "id": "book-book-of-the-covenant",
+    "slug": "book-of-the-covenant",
+    "title": "Book of the Covenant",
+    "canon_group": "Broader Canon NT",
+    "testament": "New Testament",
+    "order": 80,
+    "summary": "The Book of the Covenant preserves ecclesial instruction, discipline, and covenantal ordering."
+  },
+  {
+    "id": "book-didascalia",
+    "slug": "didascalia",
+    "title": "Didascalia",
+    "canon_group": "Broader Canon NT",
+    "testament": "New Testament",
+    "order": 81,
+    "summary": "Didascalia gathers instruction, discipline, and teaching for ordered church life."
+  }
+]
