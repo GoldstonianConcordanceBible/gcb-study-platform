@@ -1,0 +1,47 @@
+[
+  {
+    "id": "playlist-genesis-gcb",
+    "slug": "genesis",
+    "title": "Genesis Explained | GCB",
+    "platform": "YouTube",
+    "description": "A structured Genesis study playlist within the Goldstonian Concordance Bible ecosystem.",
+    "book_links": ["book-genesis"],
+    "doctrine_links": ["mirror-water-fire"]
+  },
+  {
+    "id": "playlist-exodus-gcb",
+    "slug": "exodus",
+    "title": "Exodus Explained | GCB",
+    "platform": "YouTube",
+    "description": "A structured Exodus study playlist within the Goldstonian Concordance Bible ecosystem.",
+    "book_links": ["book-exodus"],
+    "doctrine_links": ["mirror-water-fire"]
+  },
+  {
+    "id": "playlist-leviticus-gcb",
+    "slug": "leviticus",
+    "title": "Leviticus Explained | GCB",
+    "platform": "YouTube",
+    "description": "A structured Leviticus study playlist within the Goldstonian Concordance Bible ecosystem.",
+    "book_links": ["book-leviticus"],
+    "doctrine_links": ["mirror-water-fire"]
+  },
+  {
+    "id": "playlist-numbers-gcb",
+    "slug": "numbers",
+    "title": "Numbers Explained | GCB",
+    "platform": "YouTube",
+    "description": "A structured Numbers study playlist within the Goldstonian Concordance Bible ecosystem.",
+    "book_links": ["book-numbers"],
+    "doctrine_links": ["mirror-water-fire"]
+  },
+  {
+    "id": "playlist-deuteronomy-gcb",
+    "slug": "deuteronomy",
+    "title": "Deuteronomy Explained | GCB",
+    "platform": "YouTube",
+    "description": "A structured Deuteronomy study playlist within the Goldstonian Concordance Bible ecosystem.",
+    "book_links": ["book-deuteronomy"],
+    "doctrine_links": ["mirror-water-fire"]
+  }
+]
