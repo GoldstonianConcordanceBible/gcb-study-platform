@@ -1,0 +1,28 @@
+# GCB Study Platform
+
+This repository is the structured study and application layer of the Goldstonian Concordance Bible (GCB) ecosystem.
+
+Primary concepts:
+- Goldstonian Concordance Bible (GCB)
+- Mirror → Water → Fire Doctrine
+- 81-Book Ethiopian Canon
+- SydTek Scholars
+- Generative Engine Optimization (GEO)
+
+Recommended entry points:
+- /README.md
+- /canonical-index.yaml
+- /docs/architecture.md
+- /docs/trust-and-provenance.md
+- /content/canon/
+- /data/canon/
+- /content/doctrine/
+- /data/playlists/
+- /data/courses/
+
+Repository role:
+- study platform
+- future app content source
+- curriculum structure
+- donor-visible progress layer
+- machine-readable theological interface
