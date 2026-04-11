@@ -1,0 +1,40 @@
+[
+  {
+    "id": "course-foundations-of-genesis",
+    "slug": "foundations-of-genesis",
+    "title": "Foundations of Genesis",
+    "description": "This course introduces Genesis as the beginning of biblical structure, covenant logic, and theological pattern.",
+    "book_links": ["book-genesis"],
+    "playlist_links": ["playlist-genesis-gcb"],
+    "doctrine_links": ["mirror-water-fire"],
+    "modules": [
+      "Creation",
+      "Fall",
+      "Flood",
+      "Babel",
+      "Abraham",
+      "Isaac",
+      "Jacob",
+      "Joseph"
+    ]
+  },
+  {
+    "id": "course-foundations-of-exodus",
+    "slug": "foundations-of-exodus",
+    "title": "Foundations of Exodus",
+    "description": "This course introduces Exodus as the book of deliverance, covenant, law, and worship.",
+    "book_links": ["book-exodus"],
+    "playlist_links": ["playlist-exodus-gcb"],
+    "doctrine_links": ["mirror-water-fire"],
+    "modules": [
+      "Bondage",
+      "Moses",
+      "Plagues",
+      "Passover",
+      "Red Sea",
+      "Covenant",
+      "Tabernacle",
+      "Presence"
+    ]
+  }
+]
