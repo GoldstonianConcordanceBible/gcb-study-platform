@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "genesis",
+    "questions": [
+      {
+        "id": "rq-genesis-1",
+        "question": "Why does Genesis begin with God rather than man?",
+        "context_type": "book",
+        "context_id": "book-genesis",
+        "difficulty": "beginner",
+        "doctrine_links": ["mirror-water-fire"]
+      },
+      {
+        "id": "rq-genesis-2",
+        "question": "How does Genesis establish patterns that the rest of scripture develops?",
+        "context_type": "book",
+        "context_id": "book-genesis",
+        "difficulty": "intermediate",
+        "doctrine_links": ["mirror-water-fire"]
+      }
+    ]
+  },
+  {
+    "slug": "exodus",
+    "questions": [
+      {
+        "id": "rq-exodus-1",
+        "question": "Why is deliverance central to covenant identity in Exodus?",
+        "context_type": "book",
+        "context_id": "book-exodus",
+        "difficulty": "beginner",
+        "doctrine_links": ["mirror-water-fire"]
+      },
+      {
+        "id": "rq-exodus-2",
+        "question": "How does Exodus connect freedom, worship, and obedience?",
+        "context_type": "book",
+        "context_id": "book-exodus",
+        "difficulty": "intermediate",
+        "doctrine_links": ["mirror-water-fire"]
+      }
+    ]
+  }
+]
