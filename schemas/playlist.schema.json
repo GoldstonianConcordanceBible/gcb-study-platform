@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Playlist",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "platform",
+    "book_links",
+    "description"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "platform": { "type": "string" },
+    "url": { "type": "string" },
+    "description": { "type": "string" },
+    "book_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "doctrine_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "video_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
