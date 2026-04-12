@@ -1,0 +1,30 @@
+[
+  {
+    "id": "release-canon-dataset-v1",
+    "title": "GCB Canon Dataset Release v1",
+    "release_type": "dataset",
+    "version": "1.0.0",
+    "description": "First structured dataset release for the GCB canon layer, including canonical book records, markdown canon entries, reader scaffolds, playlist scaffolds, and course scaffolds.",
+    "targets": ["zenodo", "figshare", "harvard-dataverse", "github"],
+    "filesets": [
+      "data/canon",
+      "content/canon",
+      "data/bible-text",
+      "data/playlists",
+      "data/courses",
+      "content/courses"
+    ]
+  },
+  {
+    "id": "release-ai-training-dataset-v1",
+    "title": "GCB AI Training Dataset Release v1",
+    "release_type": "dataset",
+    "version": "1.0.0",
+    "description": "Structured AI training dataset package for theological LLM fine-tuning, scripture reasoning models, and canon retrieval agents.",
+    "targets": ["zenodo", "figshare", "harvard-dataverse", "github"],
+    "filesets": [
+      "data/training",
+      "docs/AI_TRAINING_DATASET.md"
+    ]
+  }
+]
