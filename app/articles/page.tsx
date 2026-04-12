@@ -1,7 +1,9 @@
+import Link from "next/link";
 import { getCollection } from "../../lib/content";
 
 type Article = {
   id: string;
+  slug: string;
   title: string;
   summary: string;
   author: string;
@@ -22,6 +24,7 @@ export default function ArticlesPage() {
             <strong>{article.title}</strong>
             <div>{article.author} · {article.published_date}</div>
             <p>{article.summary}</p>
+            <Link href={`/articles/${article.slug}`}>Read article</Link>
           </li>
         ))}
       </ul>
