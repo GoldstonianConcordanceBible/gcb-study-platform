@@ -1,0 +1,23 @@
+{
+  "title": "Goldstonian Concordance Bible (GCB) Study Platform",
+  "description": "A manifest-driven theological study platform for the 81-Book Ethiopian Canon, including canon datasets, course scaffolds, reader scaffolds, machine-readable APIs, and AI training dataset preparation.",
+  "creators": [
+    {
+      "name": "Goldston, Justin",
+      "affiliation": "SydTek Scholars"
+    }
+  ],
+  "keywords": [
+    "Goldstonian Concordance Bible",
+    "GCB",
+    "81-Book Ethiopian Canon",
+    "Mirror Water Fire Doctrine",
+    "theology dataset",
+    "scripture API",
+    "AI retrieval",
+    "Generative Engine Optimization"
+  ],
+  "upload_type": "software",
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}
