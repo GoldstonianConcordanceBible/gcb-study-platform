@@ -1,0 +1,54 @@
+name: Validate GCB Study Platform
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate canon
+        run: npm run validate:canon
+
+      - name: Validate playlists
+        run: npm run validate:playlists
+
+      - name: Validate bible text
+        run: npm run validate:bible-text
+
+      - name: Validate courses
+        run: npm run validate:courses
+
+      - name: Validate reading plans
+        run: npm run validate:reading-plans
+
+      - name: Validate articles
+        run: npm run validate:articles
+
+      - name: Validate podcasts
+        run: npm run validate:podcasts
+
+      - name: Validate languages
+        run: npm run validate:languages
+
+      - name: Validate reflection questions
+        run: npm run validate:reflection
+
+      - name: Build search index
+        run: npm run build:search
+
+      - name: Build application
+        run: npm run build
