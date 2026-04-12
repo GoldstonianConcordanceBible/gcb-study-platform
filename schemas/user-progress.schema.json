@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB User Progress",
+  "type": "object",
+  "required": ["user_id", "content_type", "content_id", "status"],
+  "properties": {
+    "user_id": { "type": "string" },
+    "content_type": {
+      "type": "string",
+      "enum": ["video", "podcast", "course", "reading-plan", "article"]
+    },
+    "content_id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["not_started", "in_progress", "completed"]
+    },
+    "percent_complete": { "type": "number" },
+    "last_accessed": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
