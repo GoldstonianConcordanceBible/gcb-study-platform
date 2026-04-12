@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Language Entry",
+  "type": "object",
+  "required": ["code", "name", "available_books"],
+  "properties": {
+    "code": { "type": "string" },
+    "name": { "type": "string" },
+    "script": { "type": "string" },
+    "available_books": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "ge_ez_tradition": { "type": "boolean" }
+  }
+}
