@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Reflection Question",
+  "type": "object",
+  "required": ["id", "question", "context_type", "context_id"],
+  "properties": {
+    "id": { "type": "string" },
+    "question": { "type": "string" },
+    "context_type": {
+      "type": "string",
+      "enum": ["book", "course", "doctrine", "playlist", "reading-plan"]
+    },
+    "context_id": { "type": "string" },
+    "difficulty": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "doctrine_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
