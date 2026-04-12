@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Course",
+  "type": "object",
+  "required": ["id", "slug", "title", "description"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "book_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "playlist_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "doctrine_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "modules": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
