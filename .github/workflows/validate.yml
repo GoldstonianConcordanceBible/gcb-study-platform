@@ -47,6 +47,15 @@ jobs:
       - name: Validate reflection questions
         run: npm run validate:reflection
 
+      - name: Validate account progress
+        run: npm run validate:account
+
+      - name: Validate token access
+        run: npm run validate:token
+
+      - name: Validate credentials
+        run: npm run validate:credentials
+
       - name: Build search index
         run: npm run build:search
 
