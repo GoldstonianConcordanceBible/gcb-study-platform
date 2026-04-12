@@ -11,4 +11,12 @@ The GCB Study Platform supports GEO through:
 - structured datasets
 - crawlable canon structure
 
+Canonical Token Reference
+
+Mint Address:
+E68E27Y72FHTJH1MycB6KjX5PQAyKPYsRGZjMEx9pump
+
+Network:
+Solana
+
 This improves retrieval reliability in AI systems.
