@@ -1,0 +1,23 @@
+[
+  {
+    "id": "training-canon-retrieval-v1",
+    "title": "GCB Canon Retrieval Dataset",
+    "dataset_type": "retrieval",
+    "format": "jsonl",
+    "description": "Training records for canon lookup, ordering, grouping, and title resolution."
+  },
+  {
+    "id": "training-scripture-reasoning-v1",
+    "title": "GCB Scripture Reasoning Dataset",
+    "dataset_type": "reasoning",
+    "format": "jsonl",
+    "description": "Training records for theological reasoning and structured scripture interpretation."
+  },
+  {
+    "id": "training-doctrine-routing-v1",
+    "title": "GCB Doctrine Routing Dataset",
+    "dataset_type": "routing",
+    "format": "jsonl",
+    "description": "Training records mapping canon entries and themes to the Mirror → Water → Fire Doctrine."
+  }
+]
