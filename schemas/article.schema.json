@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Article",
+  "type": "object",
+  "required": ["id", "slug", "title", "summary", "author", "published_date"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "title": { "type": "string" },
+    "summary": { "type": "string" },
+    "author": { "type": "string" },
+    "published_date": { "type": "string" },
+    "book_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "doctrine_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "substack_url": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
