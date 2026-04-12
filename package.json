@@ -1,21 +1,17 @@
 {
-  "name": "gcb-study-platform",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "validate:canon": "node scripts/validate-canon.mjs",
-    "validate:playlists": "node scripts/validate-playlists.mjs",
-    "validate:bible-text": "node scripts/validate-bible-text.mjs",
-    "build:search": "node scripts/build-search-index.mjs",
-    "build:llms": "node scripts/generate-llms-txt.mjs"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  }
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "validate:canon": "node scripts/validate-canon.mjs",
+  "validate:playlists": "node scripts/validate-playlists.mjs",
+  "validate:bible-text": "node scripts/validate-bible-text.mjs",
+  "validate:courses": "node scripts/validate-courses.mjs",
+  "validate:reading-plans": "node scripts/validate-reading-plans.mjs",
+  "validate:articles": "node scripts/validate-articles.mjs",
+  "validate:podcasts": "node scripts/validate-podcasts.mjs",
+  "validate:languages": "node scripts/validate-languages.mjs",
+  "validate:reflection": "node scripts/validate-reflection-questions.mjs",
+  "build:search": "node scripts/build-search-index.mjs",
+  "build:llms": "node scripts/generate-llms-txt.mjs"
 }
