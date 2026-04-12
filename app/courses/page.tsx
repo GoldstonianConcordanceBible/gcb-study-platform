@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getCollection } from "../../lib/content";
 
 type Course = {
@@ -22,6 +23,7 @@ export default function CoursesPage() {
             <strong>{course.title}</strong>
             <p>{course.description}</p>
             <div>Modules: {course.modules?.length ?? 0}</div>
+            <Link href={`/courses/${course.slug}`}>View course</Link>
           </li>
         ))}
       </ul>
