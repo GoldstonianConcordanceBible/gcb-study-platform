@@ -1,16 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "GCB Token Access",
+  "title": "GCB Token Access Rule",
   "type": "object",
-  "required": ["id", "access_type", "description"],
+  "required": ["mint_address", "required_balance"],
   "properties": {
-    "id": { "type": "string" },
-    "access_type": {
+    "mint_address": {
       "type": "string",
-      "enum": ["community", "study", "governance", "contributor"]
+      "const": "E68E27Y72FHTJH1MycB6KjX5PQAyKPYsRGZjMEx9pump"
     },
-    "description": { "type": "string" },
-    "token_name": { "type": "string" },
-    "token_chain": { "type": "string" }
+    "required_balance": {
+      "type": "number"
+    },
+    "access_scope": {
+      "type": "string",
+      "enum": [
+        "course",
+        "dataset",
+        "credential",
+        "dao"
+      ]
+    }
   }
 }
