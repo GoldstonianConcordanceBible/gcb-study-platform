@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "genesis",
+    "book_id": "book-genesis",
+    "chapters": [
+      {
+        "chapter": 1,
+        "translation_note": "Prototype scripture reader dataset for Genesis.",
+        "ge_ez_available": false,
+        "verses": [
+          {
+            "verse": 1,
+            "text": "In the beginning God created the heaven and the earth."
+          },
+          {
+            "verse": 2,
+            "text": "And the earth was without form, and void; and darkness was upon the face of the deep."
+          },
+          {
+            "verse": 3,
+            "text": "And God said, Let there be light: and there was light."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "exodus",
+    "book_id": "book-exodus",
+    "chapters": [
+      {
+        "chapter": 1,
+        "translation_note": "Prototype scripture reader dataset for Exodus.",
+        "ge_ez_available": false,
+        "verses": [
+          {
+            "verse": 1,
+            "text": "Now these are the names of the children of Israel, which came into Egypt."
+          },
+          {
+            "verse": 2,
+            "text": "Reuben, Simeon, Levi, and Judah,"
+          },
+          {
+            "verse": 3,
+            "text": "Issachar, Zebulun, and Benjamin,"
+          }
+        ]
+      }
+    ]
+  }
+]
