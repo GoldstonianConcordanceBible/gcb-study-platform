@@ -15,7 +15,10 @@ export default function CanonPage() {
             <strong>{book.order}. {book.title}</strong>
             <div>{book.canon_group} · {book.testament}</div>
             <p>{book.summary}</p>
-            <Link href={`bible-reader/${book.slug}/1`}>Open reader</Link>
+            <div style={{ display: "flex", gap: "1rem" }}>
+              <Link href={`/canon/${book.slug}`}>View entry</Link>
+              <Link href={`/bible-reader/${book.slug}/1`}>Open reader</Link>
+            </div>
           </li>
         ))}
       </ul>
