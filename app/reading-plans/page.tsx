@@ -1,7 +1,9 @@
+import Link from "next/link";
 import { getCollection } from "../../lib/content";
 
 type ReadingPlan = {
   id: string;
+  slug: string;
   title: string;
   purpose: string;
   sequence?: string[];
@@ -21,6 +23,7 @@ export default function ReadingPlansPage() {
             <strong>{plan.title}</strong>
             <p>{plan.purpose}</p>
             <div>Books in sequence: {plan.sequence?.length ?? 0}</div>
+            <Link href={`/reading-plans/${plan.slug}`}>View reading plan</Link>
           </li>
         ))}
       </ul>
