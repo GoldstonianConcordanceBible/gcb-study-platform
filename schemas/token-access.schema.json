@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Token Access",
+  "type": "object",
+  "required": ["id", "access_type", "description"],
+  "properties": {
+    "id": { "type": "string" },
+    "access_type": {
+      "type": "string",
+      "enum": ["community", "study", "governance", "contributor"]
+    },
+    "description": { "type": "string" },
+    "token_name": { "type": "string" },
+    "token_chain": { "type": "string" }
+  }
+}
