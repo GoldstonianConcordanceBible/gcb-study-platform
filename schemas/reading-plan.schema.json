@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Reading Plan",
+  "type": "object",
+  "required": ["id", "slug", "title", "purpose", "sequence"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "title": { "type": "string" },
+    "purpose": { "type": "string" },
+    "sequence": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "intended_use": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
