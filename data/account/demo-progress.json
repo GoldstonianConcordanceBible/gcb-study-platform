@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": "demo-user",
+    "content_type": "course",
+    "content_id": "course-foundations-of-genesis",
+    "status": "in_progress",
+    "percent_complete": 37.5,
+    "last_accessed": "2026-04-11",
+    "notes": "Working through the Genesis modules."
+  },
+  {
+    "user_id": "demo-user",
+    "content_type": "reading-plan",
+    "content_id": "reading-plan-torah-foundations",
+    "status": "not_started",
+    "percent_complete": 0,
+    "last_accessed": "2026-04-11",
+    "notes": "Queued for next study cycle."
+  }
+]
