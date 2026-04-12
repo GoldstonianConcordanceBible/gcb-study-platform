@@ -1,20 +1,121 @@
 {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "validate:canon": "node scripts/validate-canon.mjs",
-  "validate:playlists": "node scripts/validate-playlists.mjs",
-  "validate:bible-text": "node scripts/validate-bible-text.mjs",
-  "validate:courses": "node scripts/validate-courses.mjs",
-  "validate:reading-plans": "node scripts/validate-reading-plans.mjs",
-  "validate:articles": "node scripts/validate-articles.mjs",
-  "validate:podcasts": "node scripts/validate-podcasts.mjs",
-  "validate:languages": "node scripts/validate-languages.mjs",
-  "validate:reflection": "node scripts/validate-reflection-questions.mjs",
-  "validate:account": "node scripts/validate-account-progress.mjs",
-  "validate:token": "node scripts/validate-token-access.mjs",
-  "validate:credentials": "node scripts/validate-credentials.mjs",
-  "build:search": "node scripts/build-search-index.mjs",
-  "build:llms": "node scripts/generate-llms-txt.mjs"
+  "name": "gcb-study-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Goldstonian Concordance Bible (GCB) Study Platform — manifest-driven canonical infrastructure for the 81-book Ethiopian canon, including study layers, API access, dataset releases, and AI training scaffolds.",
+  "author": "Justin Goldston",
+  "license": "CC-BY-4.0",
+
+  "keywords": [
+    "Goldstonian Concordance Bible",
+    "GCB",
+    "81-Book Ethiopian Canon",
+    "Mirror Water Fire Doctrine",
+    "theology",
+    "scripture",
+    "Next.js",
+    "Node.js",
+    "Generative Engine Optimization",
+    "AI retrieval",
+    "theological dataset",
+    "scripture API"
+  ],
+
+  "engines": {
+    "node": ">=18.0.0"
+  },
+
+  "scripts": {
+    "dev": "next dev",
+
+    "build": "next build",
+
+    "start": "next start",
+
+    "lint": "next lint",
+
+    "typecheck": "tsc --noEmit",
+
+    "check:gcb": "node scripts/check-gcb-structure.mjs",
+
+    "clean:gcb": "node scripts/clean-generated.mjs",
+
+    "build:gcb": "node scripts/build-gcb.mjs",
+
+    "rebuild:gcb": "npm run clean:gcb && npm run build:gcb",
+
+    "generate:canon": "node scripts/generate-canon-files.mjs",
+
+    "generate:canon-md": "node scripts/generate-canon-markdown.mjs",
+
+    "generate:reader": "node scripts/generate-reader-scaffold.mjs",
+
+    "generate:playlists": "node scripts/generate-playlist-map.mjs",
+
+    "generate:courses": "node scripts/generate-course-scaffold.mjs",
+
+    "generate:reading-plans": "node scripts/generate-reading-plans.mjs",
+
+    "generate:reflection": "node scripts/generate-reflection-questions.mjs",
+
+    "generate:articles": "node scripts/generate-article-scaffold.mjs",
+
+    "generate:podcasts": "node scripts/generate-podcast-scaffold.mjs",
+
+    "generate:training": "node scripts/generate-training-dataset.mjs",
+
+    "generate:releases": "node scripts/generate-release-metadata.mjs",
+
+    "generate:search": "node scripts/regenerate-search-index.mjs",
+
+    "validate:canon": "node scripts/validate-canon.mjs",
+
+    "validate:bible-text": "node scripts/validate-bible-text.mjs",
+
+    "validate:playlists": "node scripts/validate-playlists.mjs",
+
+    "validate:courses": "node scripts/validate-courses.mjs",
+
+    "validate:reading-plans": "node scripts/validate-reading-plans.mjs",
+
+    "validate:articles": "node scripts/validate-articles.mjs",
+
+    "validate:podcasts": "node scripts/validate-podcasts.mjs",
+
+    "validate:reflection": "node scripts/validate-reflection-questions.mjs",
+
+    "validate:account": "node scripts/validate-account-progress.mjs",
+
+    "validate:token": "node scripts/validate-token-access.mjs",
+
+    "validate:credentials": "node scripts/validate-credentials.mjs",
+
+    "validate:languages": "node scripts/validate-languages.mjs",
+
+    "validate:all": "npm run validate:canon && npm run validate:bible-text && npm run validate:playlists && npm run validate:courses && npm run validate:reading-plans && npm run validate:articles && npm run validate:podcasts && npm run validate:reflection",
+
+    "dataset:release": "npm run generate:releases && npm run generate:training",
+
+    "dataset:package": "npm run generate:search && npm run validate:all",
+
+    "dataset:full": "npm run dataset:release && npm run dataset:package",
+
+    "publish:prepare": "npm run build:gcb && npm run dataset:full",
+
+    "api:test": "node scripts/test-api.mjs"
+  },
+
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.3",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "typescript": "5.4.5"
+  }
 }
