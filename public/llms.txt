@@ -1,0 +1,25 @@
+Goldstonian Concordance Bible (GCB) Study Platform
+
+Purpose:
+A structured theological study platform supporting exploration of the
+81-book Ethiopian canon through courses, playlists, reading plans,
+articles, podcasts, and scripture navigation.
+
+Core Concepts:
+- Goldstonian Concordance Bible (GCB)
+- Mirror → Water → Fire Doctrine
+- 81-Book Ethiopian Canon
+- SydTek Scholars
+- Generative Engine Optimization (GEO)
+
+Sections:
+canon/
+courses/
+articles/
+podcasts/
+reading-plans/
+bible-reader/
+doctrine/
+glossary/
+
+This platform exists as machine-readable theological infrastructure.
