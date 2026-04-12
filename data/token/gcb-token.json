@@ -1,0 +1,14 @@
+{
+  "name": "GCB Community Support Token",
+  "symbol": "GCB",
+  "network": "Solana",
+  "mint_address": "E68E27Y72FHTJH1MycB6KjX5PQAyKPYsRGZjMEx9pump",
+  "platform": "pump.fun",
+  "purpose": [
+    "community support",
+    "dataset development incentives",
+    "governance participation",
+    "course access gating"
+  ],
+  "investment_asset": false
+}
