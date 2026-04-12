@@ -12,6 +12,9 @@
   "validate:podcasts": "node scripts/validate-podcasts.mjs",
   "validate:languages": "node scripts/validate-languages.mjs",
   "validate:reflection": "node scripts/validate-reflection-questions.mjs",
+  "validate:account": "node scripts/validate-account-progress.mjs",
+  "validate:token": "node scripts/validate-token-access.mjs",
+  "validate:credentials": "node scripts/validate-credentials.mjs",
   "build:search": "node scripts/build-search-index.mjs",
   "build:llms": "node scripts/generate-llms-txt.mjs"
 }
