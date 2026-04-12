@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GCB Podcast Episode",
+  "type": "object",
+  "required": ["id", "slug", "title", "description", "book_links"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "audio_url": { "type": "string" },
+    "duration_seconds": { "type": "integer" },
+    "published_date": { "type": "string" },
+    "book_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "doctrine_links": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "transcript_url": { "type": "string" }
+  }
+}
