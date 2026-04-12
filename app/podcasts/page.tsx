@@ -1,7 +1,9 @@
+import Link from "next/link";
 import { getCollection } from "../../lib/content";
 
 type Podcast = {
   id: string;
+  slug: string;
   title: string;
   description: string;
   duration_seconds?: number;
@@ -23,6 +25,7 @@ export default function PodcastsPage() {
             <div>{podcast.published_date || "Unscheduled"}</div>
             <div>Duration: {podcast.duration_seconds ?? 0} seconds</div>
             <p>{podcast.description}</p>
+            <Link href={`/podcasts/${podcast.slug}`}>View episode</Link>
           </li>
         ))}
       </ul>
