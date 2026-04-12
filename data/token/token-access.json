@@ -1,0 +1,16 @@
+[
+  {
+    "id": "token-access-community",
+    "access_type": "community",
+    "description": "Community participation layer for the GCB ecosystem.",
+    "token_name": "GCB",
+    "token_chain": "Solana"
+  },
+  {
+    "id": "token-access-governance",
+    "access_type": "governance",
+    "description": "Future governance access for proposals, steward participation, and ecosystem coordination.",
+    "token_name": "GCB",
+    "token_chain": "Solana"
+  }
+]
