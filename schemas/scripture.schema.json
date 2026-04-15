@@ -1,0 +1,11 @@
+{
+ "title": "GCB Scripture Dataset",
+ "type": "object",
+ "properties": {
+   "book_name": { "type": "string" },
+   "chapter": { "type": "integer" },
+   "verse": { "type": "integer" },
+   "text": { "type": "string" },
+   "canon_order": { "type": "integer" }
+ }
+}
