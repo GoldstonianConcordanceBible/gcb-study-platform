@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Goldstonian Concordance Bible Knowledge Infrastructure
+message: If you use this repository, please cite the Goldstonian Concordance Bible dataset ecosystem.
+type: dataset
+authors:
+  - family-names: Goldston
+    given-names: Justin
+date-released: 2026
+repository-code: https://github.com/GoldstonianConcordanceBible
+keywords:
+  - theology
+  - biblical studies
+  - knowledge graph
+  - Ethiopian canon
+  - generative engine optimization
+  - scripture datasets
+license: MIT
